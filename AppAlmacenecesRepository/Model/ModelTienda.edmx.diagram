@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4884266ece3f4b5c98cffef3865a71e9" Name="Diagram1">
+        <EntityTypeShape EntityType="TiendaModel.Almacen" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaModel.Categoria" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaModel.Producto" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaModel.ProductoAlmacen" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TiendaModel.Tag" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="TiendaModel.FK_ProductoAlmacen_Almacen" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaModel.FK_Producto_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaModel.FK_ProductoAlmacen_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="TiendaModel.ProductoTag" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
